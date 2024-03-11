@@ -3,3 +3,4 @@
 Console.WriteLine("Hello, World!");
 Console.WriteLine("Hello, Sun!");
 string str = "";
+int a = 9;
