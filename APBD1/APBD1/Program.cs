@@ -15,3 +15,17 @@ static double Srednia(int[] numb)
 
     return sum / numb.Length;
 }
+
+static int MaxVal(int[] tab)
+{
+    int max = tab[0];
+    for (int i = 1; i < tab.Length; i++)
+    {
+        if (tab[i] > max)
+        {
+            max = tab[i];
+        }
+    }
+
+    return max;
+}
