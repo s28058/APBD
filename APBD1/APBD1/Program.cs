@@ -7,13 +7,13 @@ int a = 9;
 
 static double Srednia(int[] numb)
 {
-    double s = 0;
+    double suma = 0;
     foreach (var n in numb)
     {
-        s += n;
+        suma += n;
     }
 
-    return s / numb.Length;
+    return suma / numb.Length;
 }
 
 static int MaxVal(int[] tab)
